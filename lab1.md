@@ -1,97 +1,148 @@
-cd, ls, and cat, and using the workspace you created in this lab:
+#cd, ls, and cat, and using the workspace you created in this lab:
 
 
-# cd
+## cd
 
-Share an example of using the command with no arguments.
-**input**
+1. Share an example of using the command with no arguments.
+
+**input** 
+
+ran at : /Users/scott/Downloads/cse15/lecture1
+
 ```
 cd
 ```
 
 **output**
-output is blank, changes working directory to my user
 
-Share an example of using the command with a path to a directory as an argument.
+not an error, output is blank, changes the working directory to my /Users/scott/
+
+2. Share an example of using the command with a path to a directory as an argument.
+   
 **input**
+
+ran at: /Users/scott/Downloads/cse15/lecture1
+
 ```
 cd lecture1
 ```
 
 **output**
+
 ```
 scott@scott lecture1 %
 ```
-changed working directory to lecture1
+not an error, changed working directory to lecture1
 
-Share an example of using the command with a path to a file as an argument.
+3. Share an example of using the command with a path to a file as an argument.
 **input**
 ```
 cd Hello.java
 ```
 
 **output**
+
 ```
 cd: not a directory: Hello.java
 ```
+Error, cd is used to move directories and Hello.java is not a directory
 
 # ls
-Share an example of using the command with no arguments.
+
+1. Share an example of using the command with no arguments.
+
 **input**
+
+ran at: /Users/scott/Downloads/cse15/lecture1
+
 ```
 ls
 ```
 
 **output**
+
 ```
 Hello.class     Hello.java      README          messages
 ```
 
-Share an example of using the command with a path to a directory as an argument.
+not an error, listed all files within directory
+
+2. Share an example of using the command with a path to a directory as an argument.
+   
 **input**
+
+ran at: /Users/scott/Downloads/cse15/
+
 ```
 ls lecture1
 ```
-(ran while outside of lecture1 folder)
 
 **output**
+
 ```
 Hello.class     Hello.java      README          messages
 ```
 
-Share an example of using the command with a path to a file as an argument.
+not an error, listed all files within given directory
+
+3. Share an example of using the command with a path to a file as an argument.
+   
 **input**
+
+ran at: /Users/scott/Downloads/cse15/lecture1
+
 ```
 ls Hello.java
 ```
 
 **output**
+
 ```
 Hello.java
 ```
 
+not an error, the only file within Hello.java is itself
+
 # cat
-Share an example of using the command with no arguments.
+
+1. Share an example of using the command with no arguments.
+   
 **input**
+
+ran at /Users/scott/Downloads/cse15/lecture1
+
 ```
 cat
 ```
 
 **output**
-empty output
 
-Share an example of using the command with a path to a directory as an argument.
+error, empty output, no arguments given
+
+2. Share an example of using the command with a path to a directory as an argument.
+
 **input**
+
+ran at: /Users/scott/Downloads/cse15/
+
 ```
 cat lecture1
 ```
 
 **output**
+
 ```
 cat: lecture1: Is a directory
 ```
-Share an example of using the command with a path to a file as an argument.
+
+error, cat is supposed to give contents of a file, not directory
+
+3. Share an example of using the command with a path to a file as an argument.
+
 **input**
+
+ran at: /Users/scott/Downloads/cse15/lecture1
+
 ```
 cat Hello.java
 ```
@@ -110,3 +161,5 @@ public class Hello {
   }
 }%
 ```
+
+not an error, told us what was inside of Hello.java
