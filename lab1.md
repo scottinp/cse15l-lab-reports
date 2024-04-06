@@ -1,4 +1,4 @@
-#cd, ls, and cat, and using the workspace you created in this lab:
+# cd, ls, and cat, and using the workspace you created in this lab:
 
 
 ## cd
