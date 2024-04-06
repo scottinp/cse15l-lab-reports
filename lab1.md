@@ -3,9 +3,9 @@
 
 ## cd
 
-1. Share an example of using the command with no arguments.
+**Share an example of using the command with no arguments.**
 
-**input** 
+input
 
 ran at : /Users/scott/Downloads/cse15/lecture1
 
@@ -13,13 +13,13 @@ ran at : /Users/scott/Downloads/cse15/lecture1
 cd
 ```
 
-**output**
+output
 
 not an error, output is blank, changes the working directory to my /Users/scott/
 
-2. Share an example of using the command with a path to a directory as an argument.
+**Share an example of using the command with a path to a directory as an argument.**
    
-**input**
+input
 
 ran at: /Users/scott/Downloads/cse15/lecture1
 
@@ -27,31 +27,34 @@ ran at: /Users/scott/Downloads/cse15/lecture1
 cd lecture1
 ```
 
-**output**
+output
 
 ```
 scott@scott lecture1 %
 ```
+
 not an error, changed working directory to lecture1
 
-3. Share an example of using the command with a path to a file as an argument.
-**input**
+**Share an example of using the command with a path to a file as an argument.**
+
+input
 ```
 cd Hello.java
 ```
 
-**output**
+output
 
 ```
 cd: not a directory: Hello.java
 ```
+
 Error, cd is used to move directories and Hello.java is not a directory
 
 # ls
 
-1. Share an example of using the command with no arguments.
+**Share an example of using the command with no arguments.**
 
-**input**
+input
 
 ran at: /Users/scott/Downloads/cse15/lecture1
 
@@ -59,7 +62,7 @@ ran at: /Users/scott/Downloads/cse15/lecture1
 ls
 ```
 
-**output**
+output
 
 ```
 Hello.class     Hello.java      README          messages
@@ -67,9 +70,9 @@ Hello.class     Hello.java      README          messages
 
 not an error, listed all files within directory
 
-2. Share an example of using the command with a path to a directory as an argument.
+**Share an example of using the command with a path to a directory as an argument.**
    
-**input**
+input
 
 ran at: /Users/scott/Downloads/cse15/
 
@@ -77,7 +80,7 @@ ran at: /Users/scott/Downloads/cse15/
 ls lecture1
 ```
 
-**output**
+output
 
 ```
 Hello.class     Hello.java      README          messages
@@ -85,9 +88,9 @@ Hello.class     Hello.java      README          messages
 
 not an error, listed all files within given directory
 
-3. Share an example of using the command with a path to a file as an argument.
+**Share an example of using the command with a path to a file as an argument.**
    
-**input**
+input
 
 ran at: /Users/scott/Downloads/cse15/lecture1
 
@@ -95,7 +98,7 @@ ran at: /Users/scott/Downloads/cse15/lecture1
 ls Hello.java
 ```
 
-**output**
+output
 
 ```
 Hello.java
@@ -105,9 +108,9 @@ not an error, the only file within Hello.java is itself
 
 # cat
 
-1. Share an example of using the command with no arguments.
+**Share an example of using the command with no arguments.**
    
-**input**
+input
 
 ran at /Users/scott/Downloads/cse15/lecture1
 
@@ -115,13 +118,13 @@ ran at /Users/scott/Downloads/cse15/lecture1
 cat
 ```
 
-**output**
+output
 
 error, empty output, no arguments given
 
-2. Share an example of using the command with a path to a directory as an argument.
+**Share an example of using the command with a path to a directory as an argument.**
 
-**input**
+input
 
 ran at: /Users/scott/Downloads/cse15/
 
@@ -129,7 +132,7 @@ ran at: /Users/scott/Downloads/cse15/
 cat lecture1
 ```
 
-**output**
+output
 
 ```
 cat: lecture1: Is a directory
@@ -137,9 +140,9 @@ cat: lecture1: Is a directory
 
 error, cat is supposed to give contents of a file, not directory
 
-3. Share an example of using the command with a path to a file as an argument.
+**Share an example of using the command with a path to a file as an argument.**
 
-**input**
+input
 
 ran at: /Users/scott/Downloads/cse15/lecture1
 
@@ -147,7 +150,8 @@ ran at: /Users/scott/Downloads/cse15/lecture1
 cat Hello.java
 ```
 
-**output**
+output
+
 ```
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
