@@ -53,7 +53,7 @@ class ChatServer {
 ```
 
 **Using Add Message (1)**
-![Image](https://github.com/scottinp/cse15l-lab-reports/blob/0199418db932d715fd9f039666464d47009c322d/picture.png)
+![Image](picture.png)
 
 **Which methods in your code are called?:** handleRequest method
 
