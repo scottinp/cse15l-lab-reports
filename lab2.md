@@ -62,7 +62,7 @@ class ChatServer {
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.:** The value of "page" updates to add "\n" + user + ": " + message
 
 **Using Add Message (2)**
-![Image](https://github.com/scottinp/cse15l-lab-reports/blob/44baa694f3fc45060d3e88d7ec7df89f83abbe10/picture2.png)
+![Image](picture2.png)
 
 **Which methods in your code are called?:** handleRequest method
 
@@ -74,16 +74,16 @@ class ChatServer {
 
 **On the command line of your computer, run ls with the absolute path to the private key for your SSH key for logging into ieng6.**
 
-![Image](https://github.com/scottinp/cse15l-lab-reports/blob/5ca159ebc66e7adf484d92bf7ad3051e017fbc9e/privkey.png)
+![Image](privkey.png)
 
 **On the command line of the ieng6 machine, run ls with the absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6 using ssh-copy-id, so it should be a path on ieng6's file system).**
 
 Public key
-![Image](https://github.com/scottinp/cse15l-lab-reports/blob/1957ff9afba678562ea975a1491a55c03009f754/authorzed.png)
+![Image](authorzed.png)
 
 **A terminal interaction where you log into your ieng6 account without being asked for a password.**
 
-![Image](https://github.com/scottinp/cse15l-lab-reports/blob/8f42fa3c628a925586d0de1786d61ccd9351c543/login.png)
+![Image](login.png)
 
 ## Part 3
 
