@@ -52,19 +52,38 @@ class ChatServer {
 
 ```
 
-**Which methods in your code are called?**
+**Using Add Message (1)**
+![Image](https://github.com/scottinp/cse15l-lab-reports/blob/0199418db932d715fd9f039666464d47009c322d/picture.png)
 
-**What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
+**Which methods in your code are called?:** handleRequest method
 
-**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class?:** Some relevant arguments is the query for the message (hi) and query for the user's name (bob). 
+
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.:** The value of "page" updates to add "\n" + user + ": " + message
+
+**Using Add Message (2)**
+![Image](https://github.com/scottinp/cse15l-lab-reports/blob/44baa694f3fc45060d3e88d7ec7df89f83abbe10/picture2.png)
+
+**Which methods in your code are called?:** handleRequest method
+
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class?:** Some relevant arguments is the query for the message (hello) and query for the user's name (scott). 
+
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.:** The value of "page" updates to add "\n" + user + ": " + message
 
 ## Part 2
 
 **On the command line of your computer, run ls with the absolute path to the private key for your SSH key for logging into ieng6.**
 
+![Image](https://github.com/scottinp/cse15l-lab-reports/blob/5ca159ebc66e7adf484d92bf7ad3051e017fbc9e/privkey.png)
+
 **On the command line of the ieng6 machine, run ls with the absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6 using ssh-copy-id, so it should be a path on ieng6's file system).**
 
+Public key
+![Image](https://github.com/scottinp/cse15l-lab-reports/blob/1957ff9afba678562ea975a1491a55c03009f754/authorzed.png)
+
 **A terminal interaction where you log into your ieng6 account without being asked for a password.**
+
+![Image](https://github.com/scottinp/cse15l-lab-reports/blob/8f42fa3c628a925586d0de1786d61ccd9351c543/login.png)
 
 ## Part 3
 
