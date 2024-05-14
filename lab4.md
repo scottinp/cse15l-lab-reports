@@ -2,7 +2,7 @@
 
 ## Step 4: Log into ieng6
 
-![Image](lab4step4.png)
+![Image](lab4pics/lab4step4.png)
 
 **Keys Pressed**
 ```
