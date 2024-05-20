@@ -61,7 +61,7 @@ The after code fixes the two errors. First, the bad code was setting elements fr
 I asked chatgpt for ways to use grep, the prompt I gave it is at the bottom of the page.
 
 ## 1. grep pattern filename
-input 1
+input 1: Here I'm searching for the word "Aziz" in a txt file within the 911report directory.
 ```
 grep Aziz 911report/chapter-1.txt
 ```
@@ -70,7 +70,7 @@ output 1
     For those heading to an airport, weather conditions could not have been better for a safe and pleasant journey. Among the travelers were Mohamed Atta and Abdul Aziz al Omari, who arrived at the airport in Portland, Maine.
 ```
 
-input 2
+input 2 Here I'm searching for the phrase "9:03" in another txt file.
 ```
 grep 9:03 911report/chapter-9.txt
 ```
@@ -89,7 +89,7 @@ output 2
 
 ## 2. grep -c pattern file
 
-input 1
+input 1: Here I'm counting how many times the phrase "flight" appears in a txt file.
 ```
 grep -c flight 911report/chapter-1.txt
 ```
@@ -98,7 +98,7 @@ output 1
 74
 ```
 
-input 2
+input 2: Here I'm counting how many times the phrase "New" appears in a txt file.
 ```
 grep -c New 911report/chapter-1.txt
 ```
@@ -109,7 +109,7 @@ output 2
 
 ## 3. grep -r pattern directory
 
-input 1
+input 1: Here I'm searching for lines that contain "Omari" within all files within a specified directory.
 ```
 grep -r Omari 911report/
 ```
@@ -143,7 +143,7 @@ output 1
 911report/chapter-7.txt:                and Atta was seen with him at his hotel. The next day, Atta picked up Omari at
 ```
 
-input 2
+input 2: Here I'm searching for lines that contain "Bush" within all files within a specified directory.
 ```
 grep -r Bush government/
 ```
@@ -189,7 +189,7 @@ government/Post_Rate_Comm/Mitchell_RMVancouver.txt:policy, senders of parcels to
 
 ## 4. grep -v pattern file
 
-input 1
+input 1: Here I'm searching for all lines that DO NOT contain "and" within a specified file.
 ```
 grep -v and 911report/chapter-1.txt
 ```
@@ -676,7 +676,7 @@ What If?
     Second, NEADS did not have accurate information on the location of United 93. Presumably FAA would have provided such information, but we do not know how long that would have taken, nor how long it would have taken NEADS to locate the target.
 ```
 
-input 2
+input 2: Here I'm searching for all lines that DO NOT contain "medicine" within a specified file.
 ```
 grep -v medicine biomed/1468-6708-3-1.txt
 ```
