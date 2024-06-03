@@ -121,4 +121,6 @@ Add this line of code after line 11 in Add.java
 writer.close();
 ```
 
-# Part 2
+# Part 2 : Reflection
+
+The second half of the quarter taught me many things, but the one I found most valuable was jdb. Jdb is a new tool I can use to debug my code. Before jdb, I'd have to run the whole java file and see the error at the end, but now I can go through the code line-by-line or stop somewhere specific to check things such as variable values or object identities.
