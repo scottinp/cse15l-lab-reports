@@ -7,6 +7,7 @@
 > I want to write a java file and bash script to find the sum of arguments and write it into a txt file using FileWriter, but when I run my bash script to add numbers, nothing appears. Here's my input, my bash script, and java file.
 
 input
+
 ![Image](lr51.png)
 
 run.sh
